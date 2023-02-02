@@ -1,0 +1,15 @@
+{
+  "name": "thomashinds-github-io",
+  "collaborators": [
+    "Thomas Hinds <thinds101@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "thomashinds_github_io_bg.wasm",
+    "thomashinds_github_io.js",
+    "thomashinds_github_io.d.ts"
+  ],
+  "module": "thomashinds_github_io.js",
+  "types": "thomashinds_github_io.d.ts",
+  "sideEffects": false
+}
