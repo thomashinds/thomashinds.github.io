@@ -17,7 +17,7 @@ pub fn process(input: String, extra_lines: bool) -> String {
         .collect();
 
     if extra_lines {
-        sections.join("\n\n")
+        sections.join("\nfoo!\n")
     } else {
         sections.join("\n")
     }
