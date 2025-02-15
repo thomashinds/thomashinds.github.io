@@ -16,9 +16,10 @@ pub fn process(input: String, extra_lines: bool) -> String {
         .flat_map(|section| section.lines().skip(2))
         .collect();
 
-    match extra_lines {
-        true => sections.join("\n\n"),
-        false => sections.join("\n")
+    if extra_lines {
+        sections.join("\n\n")
+    } else {
+        sections.join("\n")
     }
     
 }
