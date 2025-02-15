@@ -1,0 +1,15 @@
+{
+  "name": "panopto",
+  "collaborators": [
+    "Thomas Hinds <thinds101@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "panopto_bg.wasm",
+    "panopto.js",
+    "panopto.d.ts"
+  ],
+  "module": "panopto.js",
+  "types": "panopto.d.ts",
+  "sideEffects": false
+}
