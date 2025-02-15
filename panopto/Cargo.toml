@@ -1,5 +1,5 @@
 [package]
-name = "thomashinds-github-io"
+name = "panopto"
 version = "0.1.0"
 authors = ["Thomas Hinds <thinds101@gmail.com>"]
 edition = "2018"

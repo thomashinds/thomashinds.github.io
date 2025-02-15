@@ -6,5 +6,6 @@ Collection of tools built in Rust and wasm.
 https://thomashinds.github.io/panopto
 
 #### Building:
-`wasm-pack build --target web -d docs/pkg`
-`rm docs/pkg/.gitignore`
+`cd panopto`
+`wasm-pack build --target web -d ../docs/panopto-pkg`
+`rm docs/panopto-pkg/.gitignore`
