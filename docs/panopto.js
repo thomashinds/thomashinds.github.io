@@ -1,4 +1,4 @@
-import init, { process } from './panopto-pkg/thomashinds_github_io.js';
+import init, { process } from './panopto-pkg/panopto.js';
 
 async function readSingleFile(e) {
     await init();
